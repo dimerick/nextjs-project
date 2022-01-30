@@ -1,0 +1,26 @@
+{
+  "name": "front-web-mappers",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.5.8",
+    "@babel/runtime": "^7.16.7",
+    "graphql": "^16.3.0",
+    "next": "12.0.8",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-helmet": "^6.1.0",
+    "react-script-tag": "^1.1.2",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.1.1"
+  },
+  "devDependencies": {
+    "eslint": "8.6.0",
+    "eslint-config-next": "12.0.8"
+  }
+}

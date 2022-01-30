@@ -1,0 +1,20 @@
+#Create nextjs app
+npx create-next-app front-web-mappers
+
+#instalar dependencias
+yarn
+
+#Levantar servidor
+yarn dev
+
+#Añadir modulos para instalar modulo sass
+yarn add node-sass
+
+#Componentes preconstruidos Semantic UI React
+yarn add semantic-ui-react semantic-ui-css
+
+#Create Strapi app
+npx create-strapi-app nameapp
+
+#Levantar proyecto Strapi
+yarn develop
