@@ -18,3 +18,17 @@ npx create-strapi-app nameapp
 
 #Levantar proyecto Strapi
 yarn develop
+
+--Conectar strapi con amazon S3
+yarn add strapi-provider-upload-aws-s3
+
+--Instalar plugin graphql
+yarn strapi install graphql
+
+--Configurar amazon S3
+middlewares.js, plugins.js, .env
+
+--configurar el chkeditor5
+npm i strapi-plugin-ckeditor5@latest
+
+yarn build

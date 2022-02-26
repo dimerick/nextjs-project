@@ -12,7 +12,7 @@ export default function Article(){
             <title>Article - {router.query.article} </title>
         </Head>
         <h1>Estamos en: {router.query.article}</h1>
-        <a href='/contact'>Contact</a><br></br>
+        {/* <a href='/contact'>Contact</a><br></br> */}
         <Link href="/contact">
         <a>Contact</a>
         </Link>
